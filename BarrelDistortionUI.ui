@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="OpenFileButton">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>20</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open image</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="DisplayFilePath">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>20</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ImgDisplay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LR2">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>110</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deformation 2th term</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="R2">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>140</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="R4">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>230</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LR4">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>200</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deformation 4th term</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="R6">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>320</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LR6">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>300</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Deformation 6th term</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Lcentx">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>390</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>focus position X</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="centx">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>410</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SaveImg">
+    <property name="geometry">
+     <rect>
+      <x>1780</x>
+      <y>680</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save picture</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Lcenty">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>480</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>focus position Y</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="centy">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>500</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Reset">
+    <property name="geometry">
+     <rect>
+      <x>1620</x>
+      <y>680</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset Slider</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
